@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container{
+    max-width: 1200px !important;
+    margin:0 auto !important;
+}
+
+.line{
+    position: relative;
+    padding: 30px 0;
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        height: 2px;
+        background-color: #ccc;
+        opacity: 30%;
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 2px;
+        background-color: #ccc;
+        opacity: 30%;
+    }
+}
+
+.text-muted{
+    color: whitesmoke !important;
+    opacity: 60%;
+}
+
+
+.extra-large_text{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+}
+
+
+// contact
+.contact-section, .reservation-section {
+    height: auto !important;
+    margin:50px 0 100px 0;
+}
+
+.contact-section {
+    background-color: #1f1f1f;
+    h3 {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+}
+
+.reservation-section {
+    background-color: #000;
+    h3 {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    label {
+        color: #ccc;
+    }
+    .form-control {
+        background-color: #1f1f1f;
+        color: #fff;
+        border: none;
+        &:focus {
+            box-shadow: none;
+            border-color: #555;
+        }
+    }
+    textarea.form-control {
+        resize: none;
+    }
+    .btn-light {
+        background-color: #fff;
+        color: #000;
+        border: none;
+        &:hover {
+            background-color: #ddd;
+        }
+    }
+}
