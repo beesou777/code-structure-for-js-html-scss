@@ -1,0 +1,79 @@
+/* About Section */
+.about {
+    background-color: #0a4275;
+    color: white;
+    text-align: center;
+    padding: 70px 0px;
+    height: 937px;
+}
+
+.about h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.about p {
+    max-width: 870px;
+    color: #e4e4e4;
+    margin: 0 auto;
+}
+
+/* Card Container */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+    margin-top: 99px;
+}
+
+/* Individual Card */
+.card {
+    width: 417px;
+    height: 269px;
+    padding: 30px 25px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.164);
+    box-shadow: 0 4px 10px #5B5B5B(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    color: white;
+}
+
+/* Card Icon */
+.card-icon {
+    font-size: 28px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.card-arrow i {
+    color: rgba(219, 216, 216, 0.986);
+    font-size: 20px;
+    transform: rotate(-47deg);
+    position: relative;
+    left: 350px;
+}
+
+/* Card Title */
+.card h3 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+/* Card Description */
+.card p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+} 

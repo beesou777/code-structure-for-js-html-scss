@@ -1,8 +1,11 @@
-@use './utility/resets';
-@use './utility/navbar';
-@use './utility/_hero';
-@use './utility/exploremenu1';
-@use './utility/flavour';
-@use './utility/card';
-@use './utility/contact';
-@use './utility/footer';
+// Base styles
+@import 'base/base';
+
+// Components
+@import 'base/navigation';
+@import 'home/hero';
+@import 'home/about';
+@import 'home/services';
+@import 'home/products';
+@import 'home/testimonials';
+@import 'home/previous-works';

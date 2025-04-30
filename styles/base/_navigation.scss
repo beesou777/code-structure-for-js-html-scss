@@ -1,0 +1,63 @@
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 14px 50px;
+    box-shadow: 0 4px 4px rgba(134, 134, 134, 0.1);
+}
+
+/* Logo */
+.logo img {
+    height: 67px;
+    width: 119px;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li:first-child a {
+    color: #0099e5;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    color: #0099e5;
+}
+
+/* Explore Button */
+.explore-btn {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    height: 41px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-btn:hover {
+    background-color: #0099e5;
+} 

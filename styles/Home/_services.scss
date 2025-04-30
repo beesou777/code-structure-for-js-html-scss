@@ -1,0 +1,79 @@
+/* Services Section */
+.services-section {
+    background-color: #fdfdfd;
+    border-radius: 45px;
+    width: 90%;
+    max-height: 545px;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services-section h2 {
+    text-align: center;
+    margin-bottom: 64px;
+    color: #19181a;
+}
+
+.services-section p {
+    color: #19181a;
+    text-align: left;
+}
+
+/* Grid Layout */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Individual Service Cards */
+.service-card {
+    background: #ffffff;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.services-section h3 {
+    color: #19181a;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 18px;
+    padding-bottom: 28px;
+}
+
+.service-card p {
+    color: #454545;
+    font-size: 16px;
+}
+
+/* Service Icons */
+.service-icon {
+    font-size: 40px;
+    display: inline-block;
+    color: #0d3c68;
+    padding-bottom: 28px;
+    padding-top: 28px;
+}
+
+/* Learn More Button */
+.btn-learn-more {
+    margin-top: 28px;
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background-color: #0d3c68;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background 0.3s;
+    border-radius: 6px;
+}
+
+.btn-learn-more:hover {
+    background-color: #0099e5;
+} 
